@@ -1,0 +1,8 @@
+package com.pegaconnect.domain.enumeration;
+
+/**
+ * The Language enumeration.
+ */
+public enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
