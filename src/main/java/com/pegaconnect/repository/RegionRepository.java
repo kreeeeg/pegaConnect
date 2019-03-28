@@ -1,0 +1,15 @@
+package com.pegaconnect.repository;
+
+import com.pegaconnect.domain.Region;
+import org.springframework.data.jpa.repository.*;
+import org.springframework.stereotype.Repository;
+
+
+/**
+ * Spring Data  repository for the Region entity.
+ */
+@SuppressWarnings("unused")
+@Repository
+public interface RegionRepository extends JpaRepository<Region, Long> {
+
+}
